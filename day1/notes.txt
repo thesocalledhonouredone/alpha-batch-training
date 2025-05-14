@@ -1,0 +1,31 @@
+leetcode problem 20. Valid Parentheses
+PROCEDURE:
+1. traverse input sequence from left to right
+2. while traversing if 'i'th character is, 
+    a. is an open symbol, push it onto the stack
+    b. else if stack is empty return FALSE
+    c. if top of the stack and 'i'th character are opposite symbols of same type, pop the top element
+    d. return FALSE otherwise
+3. after traversl return TRUE if stack is empty, otherwise FALSE
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+
+
+leetcode problem 921. Minimum Add to Make Parentheses Valid
+approach 1: Using stack
+approach 2: Using two counter for better space complexity
+
+
+
+leetcode problem 1021. Remove Outermost Parentheses
+have to take a look
+
+
+
+1249. Minimum Remove to Make Valid Parentheses
+???
+
+
+
+32. Longest Valid Parentheses
