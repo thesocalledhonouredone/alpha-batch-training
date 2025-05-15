@@ -1,0 +1,33 @@
+15/05/2025 - Thrusday
+
+32. Longest Valid Parentheses
+- procedure in notebook -
+
+
+
+155. Min Stack
+PYTHON: 
+implement the stack with a list of tuples
+maintain the MINIMUM up util that point of the stack as the second element of the tuple
+store each of the tuples as an element of the stack
+
+C++:
+use STL "pair" data structure
+also possible using "stack"
+intstructor has used "vector" data structure
+
+
+
+1047. Remove All Adjacent Duplicates In String
+Use Stack to check adjacent duplicates and convert to string, finally return
+
+
+
+232. Implement Queue using Stacks
+use two stacks back and forth for the pop and peek operations
+
+
+
+503. Next Greater Element II
+???
+got the code to work but didnt understand
