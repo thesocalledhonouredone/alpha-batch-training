@@ -1,0 +1,47 @@
+146. LRU Cache
+
+
+
+Assignment Questions: 
+------------------------------------------
+460. LFU Cache
+71. Simplify Path
+150. Evaluate Reverse Polish Notation
+225. Implement Stack using Queues
+84. Largest Rectangle in Histogram
+------------------------------------------
+
+
+
+------------------------------------------
+GREEDY APPROACH AND PROBLEMS
+------------------------------------------
+
+- At every stage selecting the locally best elements is known as GREEDY
+- Moto of GREEDY is locally best element/choice leads to global optimal solution
+- There is only one decesion sequence in GREEDY approach
+- GREEDY may or may not give optimal solution, but it efficiently works with problems like: 
+    1. Factional Knapsack
+    2. Job Sequencing with Deadline
+    3. Single Source Shortest Path (Djikstra's Algo)
+    4. Prims Algo
+    5. Min, Maxing problems
+    6. Heaps
+    7. Huffman Encoding
+- Most of the GREEDY problems will have a question pattern like "find minimum" or "find maximum"
+
+
+
+Mark and Toys *from HackerRank*
+
+
+Assignment PROBLEMS on HackerRank
+---------------------------------------
+1. Marc's Cakewalk
+2. Priyanka and Toys
+3. Greedy Florist
+---------------------------------------
+
+
+
+976. Largest Perimeter Triangle
