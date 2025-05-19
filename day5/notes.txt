@@ -26,4 +26,7 @@ STEPS:
     3. While i < n and j < n: 
         a. if Ith train arrival time in less then or equal to Jth train departure time, increment 'p' and update 'm' and increment 'i' ELSE decrement 'p' and increment 'j'
     4. RETURN 'm'
-        
+
+
+
+763. Partition Labels
