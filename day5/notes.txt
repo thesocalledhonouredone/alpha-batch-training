@@ -1,0 +1,29 @@
+435. Non-overlapping Intervals
+
+STEPS:
+    1. sort meetings according to end times
+    2. make count = 1 and assume you are attending for 1st meeting
+    3. for every meeting from 2nd meeting to last meeting if it is starting after ending    the recently selected meeting, increment the count
+    4. return total number of meeting - count
+
+
+
+Job Sequencing Problem - GFG
+
+STEPS:
+    1. Sort the jobs according to pofit in decreasing order
+    2. Take a slot array with length max deadline + 1 
+    3.  For every job search for 1st empty solt from its deadline slot to slot 1, if found store its profit in that slot and BREAK, otherwise ignore
+    4. Return number of non zeros and their sum of non-zeros in a list
+
+
+
+Minimum Platforms - GFG
+
+STEPS:
+    1. Sort arrival and departure timings in ascending order
+    2. Take i = 0 index for arrival, j = 0 index for departure, p = 0, m = 0
+    3. While i < n and j < n: 
+        a. if Ith train arrival time in less then or equal to Jth train departure time, increment 'p' and update 'm' and increment 'i' ELSE decrement 'p' and increment 'j'
+    4. RETURN 'm'
+        
