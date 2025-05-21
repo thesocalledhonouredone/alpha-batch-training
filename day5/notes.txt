@@ -30,3 +30,9 @@ STEPS:
 
 
 763. Partition Labels
+STEPS:
+    1. Find last occurance of every character in a given sting
+    2. Take start = 0, end = 0
+    3. For every character in the given string make 'end' = max(end, lastOccurance)
+    4. If its index and end values are equal, update the inclusive differece b/w start and end
+    5. RETURN result 

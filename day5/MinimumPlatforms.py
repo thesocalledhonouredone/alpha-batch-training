@@ -13,7 +13,7 @@ class Solution:
         
         arr.sort()
         dep.sort()
-        
+
         i = j = m = p = 0
         n = len(arr)
         
@@ -28,7 +28,7 @@ class Solution:
                 
         return m
     
-    
+
     
 """
 
