@@ -1,0 +1,13 @@
+39. Combination Sum
+also look at Combination Sum II and III
+
+46. Permutations
+also look at Combination Sum II and III
+
+78. Subsets
+
+22. Generate Parentheses
+
+51. N-Queens
+
+79. Word Search
